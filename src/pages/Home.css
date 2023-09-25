@@ -1,0 +1,55 @@
+/* Home.css */
+
+.home {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+.card {
+   background-color: #fff;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   padding: 20px;
+   width: 300px;
+}
+
+.card-title {
+
+   /* You can set your desired title color here */
+   font-size: 1.5rem;
+   text-align: center;
+}
+
+.titleContainer {
+   background-color: #ff7b00;
+   color: #fff;
+   width: 100%;
+   /* Make it fill the width of the card */
+   padding: 10px;
+   /* Add padding for better appearance */
+   margin-bottom: 10px;
+   /* Add a bottom margin */
+}
+
+input {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   resize: vertical;
+   /* Allows vertical resizing of the textarea */
+}
+
+/* Additional styles for input and button if needed */
